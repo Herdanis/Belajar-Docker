@@ -19,6 +19,7 @@
 
 - [List Command](#command)
 - [ENTRYPOINT vs CMD](#entrycmd)
+- [ADD vs COPY](#addcopy)
 
 ## 📟 List Command <a name="command"></a>
 
@@ -88,3 +89,5 @@ Keduanya bisa didefinisikan dalam bentuk shell atau bentuk exec.
 
 - <b>CMD</b>: Ketika kita ingin menyediakan `command` default dan/atau argumen yang dapat dengan mudah digantikan oleh pengguna. Cocok untuk kasus ketika gambar dapat dijalankan seperti adanya atau dengan argumen yang ditentukan oleh pengguna.
 - <b>ENTRYPOINT</b>: Ketika kita ingin kontainer selalu berjalan sebagai executable tertentu (dengan parameter default opsional). Ini cocok untuk kasus ketika kontainer dimaksudkan untuk dianggap sebagai aplikasi atau service tertentu.
+
+<!-- TODO: Comparasi perbedaan ADD dan COPY -->
